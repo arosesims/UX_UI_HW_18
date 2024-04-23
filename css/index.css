@@ -9,6 +9,12 @@ p {
     font-weight: 400;
 }
 
+h3 {
+    font-size: 20pt;
+    font-weight: 700;
+    font-style: italic;
+}
+
 h2 {
     font-size: 30pt;
     font-weight: 700;
@@ -56,7 +62,6 @@ button {
     align-items: center;
     display: flex;
     position: relative;
-
 }
 
 #imageOne {
@@ -77,11 +82,13 @@ button {
 }
 
 #waveCol {
+    margin-top: 30px;
     grid-area: waveCol;
     background-image: url("/images/Wave.png");
-    background-size: 10px;
+    background-size: 15px;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
+    display: flex;
 }
 
 #colThree {
@@ -89,6 +96,29 @@ button {
     padding-left: 15px;
     justify-content: left;
 }
+
+/* Page Layout - Skills */
+#mySkills {
+    margin-left: 34%;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.flexItem {
+    float: right;
+    padding: 1% 0;
+    align-items: center;
+}
+
+.flexItem img {
+    float: left;
+    margin-right: 2%;
+}
+
 
 /* Header */
 .inline-block {
@@ -123,7 +153,6 @@ nav {
 
 .footer {
     background-color: lightgray;
-    height: 100px;
     align-content: center;
     text-align: center;
 }

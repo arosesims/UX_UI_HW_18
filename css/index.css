@@ -98,8 +98,14 @@ button {
 }
 
 /* Page Layout - Skills */
+.waveTwo {
+    margin-left: 31%;
+    margin-right: 2%;
+    float: left;
+}
+
 #mySkills {
-    margin-left: 34%;
+    height: 950px;
 }
 
 .flexContainer {
@@ -153,11 +159,47 @@ nav {
 
 .footer {
     background-color: lightgray;
-    align-content: center;
-    text-align: center;
 }
 
-.endList {
-    padding: 0% 10%;
-    display: inline;
+#footerGrid {
+    display: grid;
+    padding: 3%;
+    grid-template-columns: 30%;
+    grid-template-areas:
+        "contactButton myWork"
+}
+
+#contactButton {
+    text-align: right;
+    padding: 3% 7%;
+}
+
+.flexConatinerTwo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.workEx {
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    margin: 1% 0;
+    text-align: left;
+
+}
+
+.workEx img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.footerLinks {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

@@ -203,3 +203,57 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #imageOne {
+        display: none;
+    }
+
+    #waveCol {
+        display: none;
+    }
+
+    .waveTwo {
+        display: none;
+    }
+
+    #colOne {
+        text-align: center;
+        justify-content: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .flexContainer {
+        padding-bottom: 0px;
+        padding-left: 3%;
+    }
+
+    #mySkills {
+        height: 500px;
+    }
+
+    #heroGrid {
+        grid-template-columns: 99%;
+        grid-template-rows: 400px 400px 500px;
+        grid-template-areas:
+            "imageTwo"
+            "colOne"
+            "colThree";
+    }
+
+    #footerGrid {
+        grid-template-columns: 99%;
+        grid-template-rows: 85px 1fr;
+        grid-template-areas:
+            "contactButton"
+            "myWork";
+    }
+
+    #contactButton {
+        text-align: center;
+    }
+}
